@@ -1,0 +1,20 @@
+//
+//  PrefixHeader.pch
+//  text
+//
+//  Created by BEN on 16/4/13.
+//  Copyright © 2016年 Ben. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define SCREEN_WIDTH             [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT            [UIScreen mainScreen].bounds.size.height
+#define   BACK_COLOR  [UIColor colorWithRed:206.0/225 green:10.0/225 blue:134.0/225 alpha:01]
+#define SMALL_SCROLLVIEW_HEIGHT  47
+#define EVERY_TITLE_WIDTH        44
+#define SELF_WIDTH               self.bounds.size.width
+#define SELF_HEIGHT              self.bounds.size.height
+
+#endif
